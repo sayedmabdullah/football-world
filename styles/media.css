@@ -53,8 +53,12 @@
         width: 100%;
     }
 
-    .container {
-        overflow-x: hidden;
+    header:hover > .header-info > .header-title h1 {
+        animation: none ;
+    }
+
+    .header-title a:hover, .header-img:hover img, .blog:hover > img  {
+        transform: none;
     }
 
 
@@ -79,6 +83,7 @@
     .blogs {
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 40px;
+
     }
 
     .partners {
@@ -96,9 +101,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .container {
-        overflow-x: hidden;
     }
         
 }

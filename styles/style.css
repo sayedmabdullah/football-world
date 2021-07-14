@@ -54,7 +54,7 @@ header {
 }
 
 .header-img img {
-    width: 556px;
+    width: 100%;
     transition: transform .5s ease-in-out;
 } 
 
@@ -195,7 +195,7 @@ footer {
 
 
 .footer-img img {
-    width: 330px;
+    width: 90%;
 }
 .footer-icon a {
     display: inline-block;
