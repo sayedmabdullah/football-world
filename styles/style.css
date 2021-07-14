@@ -1,0 +1,90 @@
+/* ----------
+    Fonts 
+------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+/* ---------
+Common Style
+------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: calc(100% - 15%);
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+/* --------------------- Header Style --------------------*/
+
+header {
+    background-color: #2D25A0;
+    padding: 80px 0;
+
+}
+
+.header-title {
+    padding-right: 95px;
+}
+/* annimation */
+header:hover > .header-info > .header-title h1 {
+    position: relative;
+    animation: myanimation 1.5s infinite alternate ;
+    /* animation-iteration-count: 4; */
+}
+
+@keyframes myanimation {
+    0%   { left:0; top:0;}
+    100% { left:15%; top:0;}
+  }
+
+  .header-title h1 {
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #ffff;
+    margin-bottom: 36px;
+    
+}
+.header-title a {
+    background-color: #E02C6D;
+    color: #ffff;
+    display: inline-block;
+    padding: 10px 24px;
+    transition: transform .5s ease-in-out;
+}
+/* transform transition anchor tag */
+.header-title a:hover {
+    transform: scale(1.2);
+}
+.header-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.fa-arrow-right {
+    margin-left: 8px;
+}
+
+/* transform transition image */
+.header-img img {
+    width: 556px;
+    transition: transform .5s ease-in-out;
+} 
+
+.header-img:hover img  {
+    transform: scale(1.2);
+}
+
