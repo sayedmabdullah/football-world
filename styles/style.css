@@ -27,12 +27,12 @@ a {
 
 header {
     background-color: #2D25A0;
-    padding: 80px 0;
+    padding: 70px 0;
 
 }
 
 .header-title {
-    padding-right: 95px;
+    
 }
 .header-title a {
     background-color: #E02C6D;
@@ -48,6 +48,7 @@ header {
 .header-info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 95px;
     align-items: center;
 }
 .fa-arrow-right {
@@ -122,12 +123,57 @@ section {
     color: #18191F;
 
 }
-.blog p {
+.blog p, .latest-title p  {
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
     color: #6C6C6C;
 }
 
+/* latest info style */
 
+.latest-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-column-gap: 95px;
+    padding: 70px 0;
+}
+.latest-title h1 {
+    color: black;
+    font-size: 48px;
+    line-height: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+/* partners section style */
+
+.partners {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 33.33%;
+
+    
+}
+
+.partner-title h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.partner img {
+    justify-content: center;
+    transition: transform .8s ease-in-out;
+}
+
+.partner img:hover {
+    transform: scale(1.4);
+}
+
+
+/* Footer style */
 
