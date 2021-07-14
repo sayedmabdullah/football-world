@@ -25,15 +25,13 @@ a {
     text-decoration: none;
 }
 
+/************************* Header style **************/
 header {
     background-color: #2D25A0;
     padding: 70px 0;
 
 }
 
-.header-title {
-    
-}
 .header-title a {
     background-color: #E02C6D;
     color: #ffff;
@@ -64,6 +62,7 @@ header {
     transform: scale(1.2);
 }
 
+/**************************** animation ****************/
 header:hover > .header-info > .header-title h1 {
     position: relative;
     animation: myanimation 1.5s infinite alternate ;
@@ -85,7 +84,7 @@ header:hover > .header-info > .header-title h1 {
 }
 
 
-/* Blogs Section style   */
+/******************* Blogs Section style *******************/
 
 section {
     margin: 70px 0;
@@ -102,7 +101,6 @@ section {
 .blog {
     padding: 15px;
     box-shadow: 0 0 5px;
-    /* border-radius: 5px; */
 }
 
 .blog:hover > img{
@@ -130,7 +128,7 @@ section {
     color: #6C6C6C;
 }
 
-/* latest info style */
+/****************** latest info style *******************/
 
 .latest-info {
     display: grid;
@@ -148,7 +146,7 @@ section {
 }
 
 
-/* partners section style */
+/****************** partners section style ****************/
 
 .partners {
     display: grid;
@@ -176,7 +174,7 @@ section {
 }
 
 
-/* Footer style */
+/**************** Footer style ************/
 
 
 footer {
